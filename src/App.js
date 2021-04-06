@@ -13,10 +13,10 @@ export default class App extends Component {
       <BrowserRouter>
         <div>
           <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/team" component={Team} />
+            <Route path="/Tapeside-Website/" component={Home} exact />
+            <Route path="/Tapeside-Website/about" component={About} />
+            <Route path="/Tapeside-Website/contact" component={Contact} />
+            <Route path="/Tapeside-Website/team" component={Team} />
             <Route component={Error} />
           </Switch>
         </div>
