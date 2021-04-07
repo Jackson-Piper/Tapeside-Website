@@ -10,20 +10,22 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
-          <Navbar.Brand href="/Tapeside-Website/">TapeSide Technologies</Navbar.Brand>
+          <LinkContainer to="/">
+            <Navbar.Brand>TapeSide Technologies</Navbar.Brand>
+          </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <LinkContainer to="/Tapeside-Website/">
+              <LinkContainer to="/">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Tapeside-Website/about">
+              <LinkContainer to="/about">
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Tapeside-Website/contact">
+              <LinkContainer to="/contact">
                 <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Tapeside-Website/team">
+              <LinkContainer to="/team">
                 <Nav.Link>Team</Nav.Link>
               </LinkContainer>
             </Nav>
