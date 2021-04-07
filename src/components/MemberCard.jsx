@@ -18,8 +18,12 @@ export default class MemberCard extends React.Component {
                   {this.props.name} | {this.props.studentID}
                 </strong>
               </AccordionSummary>
-              <AccordionDetails>{this.props.description}</AccordionDetails>
-              <AccordionDetails>{this.props.personality}</AccordionDetails>
+              <AccordionDetails>
+                {this.props.description}
+              </AccordionDetails>
+              <AccordionDetails>
+                {this.props.personality}
+              </AccordionDetails>
             </Accordion>
           </CardContent>
           <CardMedia
