@@ -26,7 +26,7 @@ export default class Navigation extends React.Component {
               <LinkContainer to="/contact">
                 <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/tech">
+              <LinkContainer to="/team">
                 <Nav.Link>Team</Nav.Link>
               </LinkContainer>
               <NavDropdown title="IT" id="basic-nav-dropdown">
