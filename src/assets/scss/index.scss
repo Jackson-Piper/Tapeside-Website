@@ -40,3 +40,15 @@ code {
   background: #2c3136;
   color: #fff;
 }
+
+#endnote-button {
+  background-color: transparent;
+  border-color: transparent;
+  outline: "none";
+  box-shadow: none;
+  color: #0000EE;
+
+  &[disabled] {
+    color: #fff;
+  }
+}

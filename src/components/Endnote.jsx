@@ -18,12 +18,7 @@ export default class Endnote extends React.Component {
             disabled={this.props.disabled}
             href={this.props.link}
             target="_blank"
-            style={{
-              backgroundColor: "transparent",
-              borderColor: "transparent",
-              outline: "none",
-              boxShadow: "none",
-            }}
+            id="endnote-button"
           >
             <sup>[{this.props.tooltip}]</sup>
           </Button>
