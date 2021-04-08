@@ -5,6 +5,8 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import grey from "@material-ui/core/colors/grey";
 
 export default class MemberCard extends React.Component {
   render() {
@@ -13,17 +15,13 @@ export default class MemberCard extends React.Component {
         <Card id="card-custom">
           <CardContent id="card-custom-content">
             <Accordion id="accordion-custom">
-              <AccordionSummary>
+              <AccordionSummary expandIcon={<ExpandMoreIcon style={{ color: grey[50] }} fontSize="large" />}>
                 <strong>
                   {this.props.name} | {this.props.studentID}
                 </strong>
               </AccordionSummary>
-              <AccordionDetails>
-                {this.props.description}
-              </AccordionDetails>
-              <AccordionDetails>
-                {this.props.personality}
-              </AccordionDetails>
+              <AccordionDetails>{this.props.description}</AccordionDetails>
+              <AccordionDetails>{this.props.personality}</AccordionDetails>
             </Accordion>
           </CardContent>
           <CardMedia
