@@ -15,6 +15,14 @@ code {
     monospace;
 }
 
+.contentBox{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  background: #212529;
+  color:#fff;
+}
+
 #footer {
   margin-top: 50px;
 }
@@ -46,9 +54,5 @@ code {
   border-color: transparent;
   outline: "none";
   box-shadow: none;
-  color: #0000EE;
-
-  &[disabled] {
-    color: #fff;
-  }
+  padding: 0;
 }
