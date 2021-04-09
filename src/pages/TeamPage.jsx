@@ -4,6 +4,8 @@ import MemberCard from "../components/MemberCard";
 import Footer from "../components/Footer";
 import Container from "react-bootstrap/Container";
 
+import OHurstProfile from "../assets/images/ohurst.png";
+
 export default class TeamPage extends React.Component {
   render() {
     return (
@@ -22,7 +24,7 @@ export default class TeamPage extends React.Component {
             studentID="S3893861"
             description="Oscar has always had an interest in IT, from gadgets and devices right through to gaming and VR systems. He has had a curious nature about everything tech, even since he was a toddler. From making computers with his imagination and shoeboxes, to using and playing with fully functioning desktop PCs, he has developed a love for all things digital. Ideally Oscar would love to work in video games development, he even has current experience with Git, Unreal Engine, Unity Engine and is hoping to learn WebGL and similar languages."
             personality="Oscar is a ENTP-T Which lends itself very well to a group where he can learn from, and help, others.  This personality type is well suited for management type positions."
-            profileImage="https://via.placeholder.com/3000.jpg"
+            profileImage={OHurstProfile}
           />
           <MemberCard
             name="Hans Mendoza"
