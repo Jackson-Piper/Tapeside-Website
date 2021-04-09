@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tapeside-Website/static/css/main.612c983a.chunk.css",
-    "main.js": "/Tapeside-Website/static/js/main.b33893cd.chunk.js",
-    "main.js.map": "/Tapeside-Website/static/js/main.b33893cd.chunk.js.map",
+    "main.js": "/Tapeside-Website/static/js/main.d56564fc.chunk.js",
+    "main.js.map": "/Tapeside-Website/static/js/main.d56564fc.chunk.js.map",
     "runtime-main.js": "/Tapeside-Website/static/js/runtime-main.2f8db8fd.js",
     "runtime-main.js.map": "/Tapeside-Website/static/js/runtime-main.2f8db8fd.js.map",
     "static/js/2.78ce495c.chunk.js": "/Tapeside-Website/static/js/2.78ce495c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2f8db8fd.js",
     "static/js/2.78ce495c.chunk.js",
     "static/css/main.612c983a.chunk.css",
-    "static/js/main.b33893cd.chunk.js"
+    "static/js/main.d56564fc.chunk.js"
   ]
 }
