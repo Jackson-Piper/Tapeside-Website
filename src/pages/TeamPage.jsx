@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 
 import OHurstProfile from "../assets/images/ohurst.png";
 import Miles from "../assets/images/Miles.jpg";
+import szedhanepicture from "../assests/images/szedhane picture.jpg";
 
 export default class TeamPage extends React.Component {
   render() {
@@ -18,7 +19,7 @@ export default class TeamPage extends React.Component {
             studentID="S3908225"
             description="Szedhane is currently working in a PVC Fabrication factory in Sydney. He is new to the IT scene, having developed a keen interest during the COVID lockdowns where he was unable to work and realized just how heavily and how much of the world is starting to rely on different technologies. While he is new to studying to become a qualified IT professional, he has already discovered the most beneficial method to try and resolve a computer issue – the power cycle. He has a keen interest in software development and hopes to become a Software Engineer once he has completed his degree."
             personality="Szedhane has a ISFJ-T personality which is “get it done” type, working well in a team as it makes them very practical and hands on. This personality type is great under pressure."
-            profileImage="https://via.placeholder.com/3000.jpg"
+            profileImage={szedhanepicture}
           />
           <MemberCard
             name="Oscar Hurst"
