@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Container from "react-bootstrap/Container";
 
 import OHurstProfile from "../assets/images/ohurst.png";
+import Miles from "../assets/images/Miles.jpg";
 
 export default class TeamPage extends React.Component {
   render() {
@@ -45,7 +46,7 @@ export default class TeamPage extends React.Component {
             studentID="S3893760"
             description="Currently working as a Senior IT Field Engineer with TCS and Shell Australia, working a Fly in Fly out IT role. Miles started his interest when he was young, having to battle his older brother to get time on the home computer, eventually leading to him wanting to build his own. Having worked in IT for a while, he decided to study a degree in IT to help with career prospects. Most of his roles in the past decade were either resource management roles, or customer service such as level 1 and 2 support. One of his strong points is in IT Project Management, being able to adapt to work in an Agile manner as well as using waterfall methods if needed. His past experience in workforce management helps him set clear goals to be able to succeed."
             personality="Miles has an ENFP-A personality type, which is a free-spirited person that loves working in a team. This personality type is a master of being with and around people."
-            profileImage={Miles.jpg}
+            profileImage={Miles}
           />
         </Container>
         <Footer />
