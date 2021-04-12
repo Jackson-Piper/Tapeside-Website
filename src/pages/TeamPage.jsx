@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 
 import OHurstProfile from "../assets/images/ohurst.png";
 import Miles from "../assets/images/Miles.jpg";
-import szedhanepicture from "../assests/images/szedhane picture.jpg";
+import szedhanepicture from "../assets/images/szedhane picture.jpg";
 
 export default class TeamPage extends React.Component {
   render() {
