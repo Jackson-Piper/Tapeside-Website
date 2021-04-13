@@ -10,7 +10,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" className="custom-nav">
           <LinkContainer to="/">
             <Navbar.Brand>TapeSide Technologies</Navbar.Brand>
           </LinkContainer>
