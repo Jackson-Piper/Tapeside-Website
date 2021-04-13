@@ -6,7 +6,7 @@ export default class Cybersecurity extends React.Component {
   render() {
     return (
       <div>
-        <ContentCard align="center" style={{width: '2px'}}>
+        <ContentCard align="center" style={{ width: "2px" }}>
           <h2>Cybersecurity</h2>
         </ContentCard>
         <ContentCard>
@@ -89,6 +89,98 @@ export default class Cybersecurity extends React.Component {
             and malware.
             <br />
             <br />
+            According to the Victorian Government, the average cost of a
+            successful cyberattack on an Australian business is around
+            AUD$276,000
+            <Endnote
+              tooltip="v"
+              placement="bottom"
+              note="Manage cyber security in your business | Business Victoria"
+              link="https://business.vic.gov.au/business-information/protect-your-business/manage-cyber-security-in-your-business#:~:text=The%20average%20cost%20of%20cybercrime,in%20Australia%20is%20around%20%24276%2C000."
+            />{" "}
+            which is a cost most will not be able to wear, leading to closure of
+            business and possible bankruptcy. An attack on any individual can
+            cause a range of issues, from the obvious financial damage and
+            annoyance to identity theft, which can result in thousands and even
+            possibly hundreds of thousands of dollars’ worth of debt, all of
+            which will require time to fight legally. There are even cases of
+            suicide as result of ransomware emails
+            <Endnote
+              tooltip="vi"
+              placement="bottom"
+              note="Email ransom frauds leading to suicides - Cybersecurity Insiders (cybersecurity-insiders.com)"
+              link="https://www.cybersecurity-insiders.com/email-ransom-frauds-leading-to-suicides/"
+            />{" "}
+            after a woman refused to pay and had all their digital work
+            destroyed, leading to her suicide. With better and stronger
+            Cybersecurity systems in place, a user’s data is safer than before,
+            possibly even able to trawl and delete user data from places on the
+            internet. Hopefully one day AI will be able to enter the dark web
+            and delete user data, where the average US citizens personal
+            information can be bought for as little as USD$8 per person
+            <Endnote
+              tooltip="vii"
+              placement="bottom"
+              note="How much is your info worth on the Dark Web? For Americans, it's just $8 - TechRepublic"
+              link="https://www.techrepublic.com/article/how-much-is-your-info-worth-on-the-dark-web-for-americans-its-just-8/#:~:text=Personal%20information%20from%20US%20citizens,from%20tech%20research%20firm%20Comparitech."
+            />
+            . The advent of AI driven Cybersecurity would take the burden off
+            human workforces in many ways, starting with home users being able
+            to browse the internet safely and risk free, right to corporations
+            not having to risk having sensitive user data stolen and posted
+            online, especially in the case of the Ashley Madison hack
+            <Endnote
+              tooltip="viii"
+              placement="bottom"
+              note="A Timeline of the Ashley Madison Hack | Digital Guardian"
+              link="https://digitalguardian.com/blog/timeline-ashley-madison-hack"
+            />{" "}
+            where the nature of the information was not just personal but also
+            incriminating. When AI is finally adapted to fully encompass
+            cybersecurity, the likes of McAfee and AVG may become a thing of the
+            past, not being required when an AI guardian system is watching over
+            and utilising machine learning to adapt to every threat that could
+            pass, in some cases before it even left its production environment.
+            <br />
+            <br />
+            Presently cybersecurity is at the front of a lot of users’ minds.
+            Asking questions like “is this link legitimate” or “is this another
+            scam email”. A recent study found that financial services spend at
+            least 10% of their total IT budget on cybersecurity, which can
+            equate to USD$3000 per full time employee
+            <Endnote
+              tooltip="ix"
+              placement="bottom"
+              note="2021 Cybersecurity Budgets: Breakdown, Spending Trends Explained | AT&T Cybersecurity"
+              link="https://cybersecurity.att.com/blogs/security-essentials/how-to-justify-your-cybersecurity-budget"
+            />
+            . While 10% may not sound like a huge amount, for a small business
+            or start up, that money could be spent in other IT areas, such as
+            AWS or Azure and similar IaaS to be able to have more scalability in
+            the future. For myself and most other users – the change would
+            barely be noticed, browsing the internet and downloading files would
+            become a normal and safe task, gone the days of worrying which link
+            to click or which file is the safe one to unzip and run. Society, as
+            a whole, would take most cyber security systems for granted
+            entirely, as it would be out of sight and out of mind to almost
+            every user. Shopping and banking online would become even more
+            commonplace – a survey showing that 22% of those questioned would
+            never shop online for fear of having their data stolen, with almost
+            75% of those surveyed saying they did not trust the company itself
+            <Endnote
+              tooltip="x"
+              placement="bottom"
+              note="Why Customers Don't Trust E-Commerce & What We Can Do Better (forbes.com)"
+              link="https://www.forbes.com/sites/forbescommunicationscouncil/2017/05/30/why-customers-dont-trust-e-commerce-what-we-can-do-better/?sh=611ea9ac1b2a"
+            />
+            . This was due to fears that the payment platform may be hacked or
+            otherwise “watched”. Users who know a solid and reliable
+            cybersecurity system is in place would be entirely more likely to at
+            least consider the idea of online shopping. This would be a huge
+            help to my parents especially who are aging and need to rely more on
+            buying things online safely, especially as they grew up in an age
+            without cyber threats and aren’t as sure what to be on the lookout
+            for.
           </p>
         </ContentCard>
       </div>
