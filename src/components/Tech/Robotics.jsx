@@ -1,11 +1,17 @@
 import React from "react";
+import Endnote from "../Endnote";
+import ContentCard from "../ContentCard";
 
 export default class Robotics extends React.Component {
   render() {
     return (
       <div>
-        <h1>Contact US</h1>
-        <p>Contact US page body content</p>
+        <ContentCard align="center">
+          <h2>Machine Learning</h2>
+        </ContentCard>
+        <ContentCard>
+          <p></p>
+        </ContentCard>
       </div>
     );
   }

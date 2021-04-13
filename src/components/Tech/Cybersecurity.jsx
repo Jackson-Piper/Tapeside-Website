@@ -6,7 +6,7 @@ export default class Cybersecurity extends React.Component {
   render() {
     return (
       <div>
-        <ContentCard align="center" style={{ width: "2px" }}>
+        <ContentCard align="center">
           <h2>Cybersecurity</h2>
         </ContentCard>
         <ContentCard>
