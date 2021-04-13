@@ -7,7 +7,7 @@ export default class Robotics extends React.Component {
     return (
       <div>
         <ContentCard align="center">
-          <h2>Machine Learning</h2>
+          <h2>Robotics</h2>
         </ContentCard>
         <ContentCard>
           <p></p>

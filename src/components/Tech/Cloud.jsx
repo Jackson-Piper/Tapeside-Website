@@ -7,7 +7,7 @@ export default class Cybersecurity extends React.Component {
     return (
       <div>
         <ContentCard align="center">
-          <h2>Machine Learning</h2>
+          <h2>Cloud</h2>
         </ContentCard>
         <ContentCard>
           <p></p>
