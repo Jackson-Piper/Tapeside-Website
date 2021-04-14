@@ -3,8 +3,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './pages/HomePage';
 import Team from './pages/TeamPage';
-import Tools from './pages/ToolsPage';
-import IndustryData from './pages/IndustryDataPage';
+import IdealJobs from './pages/IdealJobsPage';
 import Work from './pages/WorkPage';
 
 import Tech from './pages/TechPage/TechPage';
@@ -25,8 +24,7 @@ export default class App extends Component {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/team" component={Team} />
-            <Route path="/tools" component={Tools} />
-            <Route path="/industry-data" component={IndustryData} />
+            <Route path="/ideal-jobs" component={IdealJobs} />
             <Route path="/work" component={Work} />
             <Route
               path="/tech"
