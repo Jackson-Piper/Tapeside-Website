@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './pages/HomePage';
-import About from './pages/AboutPage';
-import Contact from './pages/ContactPage';
 import Team from './pages/TeamPage';
+import Tools from './pages/ToolsPage';
+import IndustryData from './pages/IndustryDataPage';
+import Work from './pages/WorkPage';
+
 import Tech from './pages/TechPage/TechPage';
 import Cloud from './pages/TechPage/CloudPage';
 import Cybersecurity from './pages/TechPage/CybersecurityPage';
 import MachineLearning from './pages/TechPage/MachineLearningPage';
 import Robotics from './pages/TechPage/RoboticsPage';
+
+import Project from './pages/ProjectPage';
+
 import Error from './pages/ErrorPage';
 
 export default class App extends Component {
@@ -19,9 +24,10 @@ export default class App extends Component {
         <div>
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
             <Route path="/team" component={Team} />
+            <Route path="/tools" component={Tools} />
+            <Route path="/industry-data" component={IndustryData} />
+            <Route path="/work" component={Work} />
             <Route
               path="/tech"
               render={({ match: { url } }) => (
@@ -34,6 +40,7 @@ export default class App extends Component {
                 </>
               )}
             />
+            <Route path="/project" component={Project} />
             <Route component={Error} />
           </Switch>
         </div>

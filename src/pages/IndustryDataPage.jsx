@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
-import Contact from "../components/Contact";
+import Home from "../components/Home";
 import Footer from "../components/Footer";
 
-export default class ContactPage extends React.Component {
+export default class IndustryDataPage extends React.Component {
   render() {
     return (
       <div>
         <Header />
-        <Contact />
+        <Home />
         <Footer />
       </div>
     );

@@ -10,7 +10,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" className="custom-nav">
+        <Navbar collapseOnSelect expand="lg" variant="dark" className="custom-nav">
           <LinkContainer to="/">
             <Navbar.Brand>TapeSide Technologies</Navbar.Brand>
           </LinkContainer>
@@ -20,16 +20,19 @@ export default class Navigation extends React.Component {
               <LinkContainer to="/">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/about">
-                <Nav.Link>About</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/contact">
-                <Nav.Link>Contact</Nav.Link>
-              </LinkContainer>
               <LinkContainer to="/team">
                 <Nav.Link>Team</Nav.Link>
               </LinkContainer>
-              <NavDropdown title="IT" id="basic-nav-dropdown">
+              <LinkContainer to="/tools">
+                <Nav.Link>Tools</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/industry-data">
+                <Nav.Link>Industry Data</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/work">
+                <Nav.Link>IT Work</Nav.Link>
+              </LinkContainer>
+              <NavDropdown title="IT Technologies" id="basic-nav-dropdown">
                 <LinkContainer to="/tech">
                   <NavDropdown.Item>Technologies</NavDropdown.Item>
                 </LinkContainer>
@@ -47,6 +50,9 @@ export default class Navigation extends React.Component {
                   <NavDropdown.Item>Robotics</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
+              <LinkContainer to="/project">
+                <Nav.Link>Project</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
