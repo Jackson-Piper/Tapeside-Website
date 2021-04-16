@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import OHurstProfile from "../assets/images/ohurst.png";
 import Miles from "../assets/images/Miles.jpg";
 import szedhanepicture from "../assets/images/szedhane picture.jpg";
+import JacksonP from "../assets/images/JacksonPiper.jpg";
 
 export default class TeamPage extends React.Component {
   render() {
@@ -40,7 +41,7 @@ export default class TeamPage extends React.Component {
             studentID="S389379"
             description="Jackson is the resident snow bunny, currently working as a Ski Instructor at Thredbo in New South Wales. Previously he has taught Skiing in Japan and South Korea, but has also hit the snow in North America – Both the US and Canada – as well as across the Tasman in New Zealand. His interest in IT comes from seeing his grandfather playing strategy games, where he was able to eventually play them himself. After learning about and eventually playing video games he developed a fascination with technology and loves to play with the latest and greatest tech. The more he has used and studied technology the more he wanted to understand the inner workings and this has lead him to study a bachelor in IT to be able to pursue a career in software development, specifically backend, while still getting time on the slopes."
             personality="Jackson has an INTJ-T personality, which does prefer to work alone but not necessarily without a team. They are fantastic collaborators and help the team with brainstorming and outside ideas."
-            profileImage="https://via.placeholder.com/3000.jpg"
+            profileImage={JacksonP}
           />
           <MemberCard
             name="Miles Wilson"
