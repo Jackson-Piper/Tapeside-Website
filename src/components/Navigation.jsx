@@ -35,7 +35,7 @@ export default class Navigation extends React.Component {
                 </LinkContainer>
                 <NavDropdown.Divider />
                 <LinkContainer to="/tech/cloud">
-                  <NavDropdown.Item>Clouds, services, servers</NavDropdown.Item>
+                  <NavDropdown.Item>Clouds, services and servers</NavDropdown.Item>
                 </LinkContainer>
                 <LinkContainer to="/tech/cybersecurity">
                   <NavDropdown.Item>Cybersecurity</NavDropdown.Item>
