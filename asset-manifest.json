@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/Tapeside-Website/static/css/main.3f536768.chunk.css",
-    "main.js": "/Tapeside-Website/static/js/main.d3a716be.chunk.js",
-    "main.js.map": "/Tapeside-Website/static/js/main.d3a716be.chunk.js.map",
+    "main.css": "/Tapeside-Website/static/css/main.033b7de5.chunk.css",
+    "main.js": "/Tapeside-Website/static/js/main.9cac6298.chunk.js",
+    "main.js.map": "/Tapeside-Website/static/js/main.9cac6298.chunk.js.map",
     "runtime-main.js": "/Tapeside-Website/static/js/runtime-main.2f8db8fd.js",
     "runtime-main.js.map": "/Tapeside-Website/static/js/runtime-main.2f8db8fd.js.map",
-    "static/js/2.9e8b1496.chunk.js": "/Tapeside-Website/static/js/2.9e8b1496.chunk.js",
-    "static/js/2.9e8b1496.chunk.js.map": "/Tapeside-Website/static/js/2.9e8b1496.chunk.js.map",
+    "static/js/2.2188a0c7.chunk.js": "/Tapeside-Website/static/js/2.2188a0c7.chunk.js",
+    "static/js/2.2188a0c7.chunk.js.map": "/Tapeside-Website/static/js/2.2188a0c7.chunk.js.map",
     "static/js/3.3364e673.chunk.js": "/Tapeside-Website/static/js/3.3364e673.chunk.js",
     "static/js/3.3364e673.chunk.js.map": "/Tapeside-Website/static/js/3.3364e673.chunk.js.map",
     "index.html": "/Tapeside-Website/index.html",
-    "static/css/main.3f536768.chunk.css.map": "/Tapeside-Website/static/css/main.3f536768.chunk.css.map",
-    "static/js/2.9e8b1496.chunk.js.LICENSE.txt": "/Tapeside-Website/static/js/2.9e8b1496.chunk.js.LICENSE.txt",
+    "static/css/main.033b7de5.chunk.css.map": "/Tapeside-Website/static/css/main.033b7de5.chunk.css.map",
+    "static/js/2.2188a0c7.chunk.js.LICENSE.txt": "/Tapeside-Website/static/js/2.2188a0c7.chunk.js.LICENSE.txt",
+    "static/media/JacksonPiper.245ae2f6.jpg": "/Tapeside-Website/static/media/JacksonPiper.245ae2f6.jpg",
     "static/media/Miles.343e8780.jpg": "/Tapeside-Website/static/media/Miles.343e8780.jpg",
     "static/media/ohurst.bd27e6eb.png": "/Tapeside-Website/static/media/ohurst.bd27e6eb.png",
     "static/media/szedhane picture.9d6189f8.jpg": "/Tapeside-Website/static/media/szedhane picture.9d6189f8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2f8db8fd.js",
-    "static/js/2.9e8b1496.chunk.js",
-    "static/css/main.3f536768.chunk.css",
-    "static/js/main.d3a716be.chunk.js"
+    "static/js/2.2188a0c7.chunk.js",
+    "static/css/main.033b7de5.chunk.css",
+    "static/js/main.9cac6298.chunk.js"
   ]
 }
