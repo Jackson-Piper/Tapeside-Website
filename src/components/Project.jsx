@@ -1,12 +1,12 @@
 import React from "react";
-import ContentCard from "../ContentCard";
+import ContentCard from "./ContentCard";
 
-export default class Tech extends React.Component {
+export default class Project extends React.Component {
   render() {
     return (
       <div>
         <ContentCard align="center">
-          <h2>IT Technologies</h2>
+          <h2>Project</h2>
         </ContentCard>
       </div>
     );

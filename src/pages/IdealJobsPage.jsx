@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import Home from "../components/Home";
+import IdealJobs from "../components/IdealJobs";
 import Footer from "../components/Footer";
 
 export default class IdealJobsPage extends React.Component {
@@ -8,7 +8,7 @@ export default class IdealJobsPage extends React.Component {
     return (
       <div>
         <Header />
-        <Home />
+        <IdealJobs />
         <Footer />
       </div>
     );
