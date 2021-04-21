@@ -8,6 +8,7 @@ import OHurstProfile from "../assets/images/ohurst.png";
 import Miles from "../assets/images/Miles.jpg";
 import szedhanepicture from "../assets/images/szedhane picture.jpg";
 import JacksonP from "../assets/images/JacksonPiper.jpg";
+import HansMendozaPic from "../assets/images/Hans_Mendoza.jpg";
 
 export default class TeamPage extends React.Component {
   render() {
@@ -34,7 +35,7 @@ export default class TeamPage extends React.Component {
             studentID="S3905757"
             description="Hans came to Australia, from the Philippines, at a young age and at the same time discovered how much he enjoyed gaming on his Xbox 360. He found out that games could be improved past what the original developers had created, so he then learnt to edit and modify the game files to add additional content for his own enjoyment. He has a fondness for watching and learning about the inner workings of computers through the likes of Linus Tech Tips and Michael Reeves on YouTube. He hopes to one day become an Auditor for Information Technology companies, which will be something that a lot of future IT companies will require for quality and scalability."
             personality="Hans is the ISTP-A type, which is a hands on, fix it myself kind of personality. While it is hands on it is also a private natured person who will do well in a team with a mix of personality types."
-            profileImage="https://via.placeholder.com/3000.jpg"
+            profileImage={HansMendozaPic}
           />
           <MemberCard
             name="Jackson Piper"
