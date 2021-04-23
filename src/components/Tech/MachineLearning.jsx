@@ -58,7 +58,7 @@ export default class MachineLearning extends React.Component {
             <Endnote
               tooltip="1"
               placement="bottom"
-              note="Ahmed, A., 2021. What is the Future of Machine Learning"
+              note="Ahmed, A., 2021. What is the Future of Machine Learning [Article Taken Down!]"
               link="https://medium.com/machine-learning-quest/what-is-the-future-of-machine-learning-ec17bfd3b90b"
             />
             . This will vastly accelerate the overall processing, learning and
