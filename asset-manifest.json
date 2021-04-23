@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Tapeside-Website/static/css/main.7527d5df.chunk.css",
-    "main.js": "/Tapeside-Website/static/js/main.114babdb.chunk.js",
-    "main.js.map": "/Tapeside-Website/static/js/main.114babdb.chunk.js.map",
-    "runtime-main.js": "/Tapeside-Website/static/js/runtime-main.e895f1d9.js",
-    "runtime-main.js.map": "/Tapeside-Website/static/js/runtime-main.e895f1d9.js.map",
-    "static/js/2.106521e9.chunk.js": "/Tapeside-Website/static/js/2.106521e9.chunk.js",
-    "static/js/2.106521e9.chunk.js.map": "/Tapeside-Website/static/js/2.106521e9.chunk.js.map",
-    "static/js/3.cc3b0899.chunk.js": "/Tapeside-Website/static/js/3.cc3b0899.chunk.js",
-    "static/js/3.cc3b0899.chunk.js.map": "/Tapeside-Website/static/js/3.cc3b0899.chunk.js.map",
+    "main.css": "/Tapeside-Website/static/css/main.592f783d.chunk.css",
+    "main.js": "/Tapeside-Website/static/js/main.d4d780c5.chunk.js",
+    "main.js.map": "/Tapeside-Website/static/js/main.d4d780c5.chunk.js.map",
+    "runtime-main.js": "/Tapeside-Website/static/js/runtime-main.c0fcc437.js",
+    "runtime-main.js.map": "/Tapeside-Website/static/js/runtime-main.c0fcc437.js.map",
+    "static/js/2.a9123f55.chunk.js": "/Tapeside-Website/static/js/2.a9123f55.chunk.js",
+    "static/js/2.a9123f55.chunk.js.map": "/Tapeside-Website/static/js/2.a9123f55.chunk.js.map",
+    "static/js/3.216456f0.chunk.js": "/Tapeside-Website/static/js/3.216456f0.chunk.js",
+    "static/js/3.216456f0.chunk.js.map": "/Tapeside-Website/static/js/3.216456f0.chunk.js.map",
     "index.html": "/Tapeside-Website/index.html",
-    "static/css/main.7527d5df.chunk.css.map": "/Tapeside-Website/static/css/main.7527d5df.chunk.css.map",
-    "static/js/2.106521e9.chunk.js.LICENSE.txt": "/Tapeside-Website/static/js/2.106521e9.chunk.js.LICENSE.txt",
+    "static/css/main.592f783d.chunk.css.map": "/Tapeside-Website/static/css/main.592f783d.chunk.css.map",
+    "static/js/2.a9123f55.chunk.js.LICENSE.txt": "/Tapeside-Website/static/js/2.a9123f55.chunk.js.LICENSE.txt",
     "static/media/Hans_Mendoza.e98aa465.jpg": "/Tapeside-Website/static/media/Hans_Mendoza.e98aa465.jpg",
     "static/media/JacksonPiper.245ae2f6.jpg": "/Tapeside-Website/static/media/JacksonPiper.245ae2f6.jpg",
     "static/media/Miles.343e8780.jpg": "/Tapeside-Website/static/media/Miles.343e8780.jpg",
@@ -30,9 +30,9 @@
     "static/media/vscode.3721028f.png": "/Tapeside-Website/static/media/vscode.3721028f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e895f1d9.js",
-    "static/js/2.106521e9.chunk.js",
-    "static/css/main.7527d5df.chunk.css",
-    "static/js/main.114babdb.chunk.js"
+    "static/js/runtime-main.c0fcc437.js",
+    "static/js/2.a9123f55.chunk.js",
+    "static/css/main.592f783d.chunk.css",
+    "static/js/main.d4d780c5.chunk.js"
   ]
 }
