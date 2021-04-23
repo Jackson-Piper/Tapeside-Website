@@ -6,7 +6,7 @@ export default class Cloud extends React.Component {
   render() {
     return (
       <div>
-        <ContentCard align="center">
+        <ContentCard width="400px" align="center">
           <h2>Cloud, services and servers</h2>
         </ContentCard>
         <ContentCard>

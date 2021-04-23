@@ -6,7 +6,7 @@ export default class Robotics extends React.Component {
   render() {
     return (
       <div>
-        <ContentCard align="center">
+        <ContentCard width="400px" align="center">
           <h2>Robotics</h2>
         </ContentCard>
         <ContentCard>
