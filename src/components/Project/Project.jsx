@@ -11,7 +11,7 @@ export default class Project extends React.Component {
   render() {
     return (
       <div>
-        <ContentCard align="center">
+        <ContentCard align="center" width="400px">
           <h2>Project</h2>
         </ContentCard>
 
