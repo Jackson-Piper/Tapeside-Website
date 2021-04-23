@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import Home from './pages/HomePage';
 import Tools from './pages/ToolsPage';
@@ -23,7 +23,9 @@ export default class App extends Component {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Switch>
-            <Route path="/" component={Home} exact />
+            <Route path="/" component={Home} exact>
+              <Redirect to="/team" />
+            </Route>
             <Route path="/team" component={Team} />
             <Route path="/tools" component={Tools} />
             <Route path="/ideal-jobs" component={IdealJobs} />
@@ -32,7 +34,9 @@ export default class App extends Component {
               path="/tech"
               render={({ match: { url } }) => (
                 <>
-                  <Route path={`${url}/`} component={Tech} exact />
+                  <Route path={`${url}/`} component={Tech} exact>
+                    <Redirect to={`${url}/cloud`} />
+                  </Route>
                   <Route path={`${url}/cloud`} component={Cloud} />
                   <Route path={`${url}/cybersecurity`} component={Cybersecurity} />
                   <Route path={`${url}/machine-learning`} component={MachineLearning} />
