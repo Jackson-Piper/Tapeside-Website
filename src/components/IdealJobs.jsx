@@ -25,7 +25,7 @@ export default class IdealJobs extends React.Component {
       "Hans Mendoza",
       "Quality Assurance/Auditor",
       "Overall quality assurance is needed to ensure all systems that are being implemented are optimal before final release to production environment.",
-      ""
+      "The role of an auditor still greatly interests me currently though as time and new roles open, my job interest might waiver and change into another."
     ),
     this.createData(
       "Jackson Piper",
