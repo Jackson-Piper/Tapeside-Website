@@ -16,12 +16,21 @@ export default class MemberCard extends React.Component {
           <CardContent id="card-custom-content">
             <Accordion id="accordion-custom">
               <AccordionSummary expandIcon={<ExpandMoreIcon style={{ color: grey[50] }} fontSize="large" />}>
-                <strong>
-                  {this.props.name} | {this.props.studentID}
-                </strong>
+                <h5><strong>
+                  {this.props.firstName} {this.props.lastName} | {this.props.studentID}
+                </strong></h5>
               </AccordionSummary>
               <AccordionDetails>{this.props.description}</AccordionDetails>
               <AccordionDetails>{this.props.personality}</AccordionDetails>
+              <AccordionDetails><strong>Assessment 1 Mark</strong>: {this.props.mark}/100</AccordionDetails>
+            </Accordion>
+            <Accordion id="accordion-custom">
+              <AccordionSummary expandIcon={<ExpandMoreIcon style={{ color: grey[50] }} fontSize="large" />}>
+                <h5><strong>
+                  {this.props.firstName}'s Career Plans
+                </strong></h5>
+              </AccordionSummary>
+              <AccordionDetails>{this.props.description}</AccordionDetails>
             </Accordion>
           </CardContent>
           <CardMedia
