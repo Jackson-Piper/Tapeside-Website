@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { LinkContainer } from "react-router-bootstrap";
+import {LinkContainer} from "react-router-bootstrap";
 
 export default class Navigation extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class Navigation extends React.Component {
           <LinkContainer to="/">
             <Navbar.Brand>TapeSide Technologies</Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               {/*<LinkContainer to="/">
@@ -28,9 +28,6 @@ export default class Navigation extends React.Component {
               </LinkContainer>
               <LinkContainer to="/ideal-jobs">
                 <Nav.Link>Ideal Jobs</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/work">
-                <Nav.Link>IT Work</Nav.Link>
               </LinkContainer>
               <NavDropdown title="IT Technologies" id="basic-nav-dropdown">
                 {/*<LinkContainer to="/tech">

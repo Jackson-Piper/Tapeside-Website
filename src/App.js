@@ -5,7 +5,6 @@ import Home from './pages/HomePage';
 import Tools from './pages/ToolsPage';
 import Team from './pages/TeamPage';
 import IdealJobs from './pages/IdealJobsPage';
-import Work from './pages/WorkPage';
 
 import Tech from './pages/TechPage/TechPage';
 import Cloud from './pages/TechPage/CloudPage';
@@ -29,7 +28,6 @@ export default class App extends Component {
             <Route path="/team" component={Team} />
             <Route path="/tools" component={Tools} />
             <Route path="/ideal-jobs" component={IdealJobs} />
-            <Route path="/work" component={Work} />
             <Route
               path="/tech"
               render={({ match: { url } }) => (
