@@ -1,17 +1,17 @@
 import React from "react";
-import ContentCard from "./ContentCard";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
+import ContentCard from "../components/ContentCard";
+import Container from "react-bootstrap/Container";
 import TableContainer from "@material-ui/core/TableContainer";
+import Paper from "@material-ui/core/Paper";
+import Table from "@material-ui/core/Table";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
-import Container from "react-bootstrap/container";
+import TableCell from "@material-ui/core/TableCell";
+import TableBody from "@material-ui/core/TableBody";
 
 export default class IdealJobs extends React.Component {
   createData(name, role, compare, changed) {
-    return { name, role, compare, changed };
+    return {name, role, compare, changed};
   }
 
   rows = [
@@ -58,16 +58,16 @@ export default class IdealJobs extends React.Component {
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell style={{ color: "white" }} align="center">
+                  <TableCell style={{color: "white"}} align="center">
                     <strong>Name</strong>
                   </TableCell>
-                  <TableCell style={{ color: "white" }} align="center">
+                  <TableCell style={{color: "white"}} align="center">
                     <strong>Ideal Role</strong>
                   </TableCell>
-                  <TableCell style={{ color: "white" }} align="center">
+                  <TableCell style={{color: "white"}} align="center">
                     <strong>How does this compare?</strong>
                   </TableCell>
-                  <TableCell style={{ color: "white" }} align="center">
+                  <TableCell style={{color: "white"}} align="center">
                     <strong>Has this changed?</strong>
                   </TableCell>
                 </TableRow>
@@ -76,17 +76,17 @@ export default class IdealJobs extends React.Component {
                 {this.rows.map((row) => (
                   <TableRow key={row.name}>
                     <TableCell
-                      style={{ color: "white" }}
+                      style={{color: "white"}}
                       component="th"
                       scope="row"
                     >
                       {row.name}
                     </TableCell>
-                    <TableCell style={{ color: "white" }}>{row.role}</TableCell>
-                    <TableCell style={{ color: "white" }}>
+                    <TableCell style={{color: "white"}}>{row.role}</TableCell>
+                    <TableCell style={{color: "white"}}>
                       {row.compare}
                     </TableCell>
-                    <TableCell style={{ color: "white" }}>
+                    <TableCell style={{color: "white"}}>
                       {row.changed}
                     </TableCell>
                   </TableRow>

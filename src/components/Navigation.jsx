@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import {LinkContainer} from "react-router-bootstrap";
 
@@ -28,9 +29,17 @@ export default class Navigation extends React.Component {
               <LinkContainer to="/ideal-jobs">
                 <Nav.Link>Ideal Jobs</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/project">
-                <Nav.Link>Project</Nav.Link>
-              </LinkContainer>
+              <NavDropdown title="Project" id="basic-nav-dropdown">
+                <LinkContainer to="/project/description">
+                  <NavDropdown.Item>Description</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to="/project/theory">
+                  <NavDropdown.Item>Theory</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to="/project/practical">
+                  <NavDropdown.Item>Practical</NavDropdown.Item>
+                </LinkContainer>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

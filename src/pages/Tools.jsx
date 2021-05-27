@@ -1,8 +1,8 @@
 import React from "react";
-import ContentCard from "./ContentCard";
-import ToolCard from "./ToolCard";
-import Container from "react-bootstrap/container";
-import Endnote from "./Endnote";
+import ContentCard from "../components/ContentCard";
+import ToolCard from "../components/ToolCard";
+import Endnote from "../components/Endnote";
+import Container from "react-bootstrap/Container";
 
 import OutlookLogo from "../assets/images/tools/outlook.png";
 import TeamsLogo from "../assets/images/tools/teams.webp";
@@ -115,8 +115,8 @@ export default class Tools extends React.Component {
             control so that everyone can see changes that have been made and if
             something goes wrong we can roll back to a stable version of the
             website.
-            <br />
-            <br />
+            <br/>
+            <br/>
             The TapeSide website is being hosted with the GitHub Pages service.
             We are using this service as it is free, and it integrates straight
             into our GitHub repository so we can see the deploy status straight
@@ -151,15 +151,15 @@ export default class Tools extends React.Component {
             React.JS is an open-source JavaScript library developed by Facebook
             that is used for front-end web development and building reusable UI
             components.
-            <br />
-            <br />
+            <br/>
+            <br/>
             We use React.JS to develop our website as we can easily reuse
             components of the web pages and edit the parent component to ensure
             consistency throughout the entire website. It also reduces amount of
             code that needs to be written as the components are completely
             reusable.
-            <br />
-            <br />
+            <br/>
+            <br/>
             Another significant advantage to using React.JS is that it is one of
             the fastest web development frameworks currently available and it is
             important that our website is nice and fast so that the user
@@ -219,8 +219,8 @@ export default class Tools extends React.Component {
             , “Sass is a preprocessor scripting language that is interpreted or
             compiled into Cascading Style Sheets. SassScript is the scripting
             language itself.”
-            <br />
-            <br />
+            <br/>
+            <br/>
             We have used Sass as a replacement to standard CSS as it is a more
             powerful form of CSS with more features and is easier to write. Sass
             has been around for 14 years and is therefore very well matured and
