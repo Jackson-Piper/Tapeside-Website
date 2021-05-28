@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tapeside-Website/static/css/main.74964be6.chunk.css",
-    "main.js": "/Tapeside-Website/static/js/main.336f7ee4.chunk.js",
-    "main.js.map": "/Tapeside-Website/static/js/main.336f7ee4.chunk.js.map",
+    "main.js": "/Tapeside-Website/static/js/main.400d74ba.chunk.js",
+    "main.js.map": "/Tapeside-Website/static/js/main.400d74ba.chunk.js.map",
     "runtime-main.js": "/Tapeside-Website/static/js/runtime-main.c0fcc437.js",
     "runtime-main.js.map": "/Tapeside-Website/static/js/runtime-main.c0fcc437.js.map",
     "static/js/2.de217d8f.chunk.js": "/Tapeside-Website/static/js/2.de217d8f.chunk.js",
@@ -16,24 +16,31 @@
     "static/media/Hans_Mendoza.e98aa465.jpg": "/Tapeside-Website/static/media/Hans_Mendoza.e98aa465.jpg",
     "static/media/JacksonPiper.245ae2f6.jpg": "/Tapeside-Website/static/media/JacksonPiper.245ae2f6.jpg",
     "static/media/Miles.343e8780.jpg": "/Tapeside-Website/static/media/Miles.343e8780.jpg",
+    "static/media/Raspi.e3d5f8e4.webp": "/Tapeside-Website/static/media/Raspi.e3d5f8e4.webp",
+    "static/media/arduino.51319eb1.png": "/Tapeside-Website/static/media/arduino.51319eb1.png",
     "static/media/canvas.3659e724.png": "/Tapeside-Website/static/media/canvas.3659e724.png",
     "static/media/discord.b5bd5243.png": "/Tapeside-Website/static/media/discord.b5bd5243.png",
+    "static/media/fermenter.5d5b0517.png": "/Tapeside-Website/static/media/fermenter.5d5b0517.png",
     "static/media/github.69ffd9cd.png": "/Tapeside-Website/static/media/github.69ffd9cd.png",
+    "static/media/heat.a881b8bb.png": "/Tapeside-Website/static/media/heat.a881b8bb.png",
+    "static/media/home-assistant-logo.7f220aef.svg": "/Tapeside-Website/static/media/home-assistant-logo.7f220aef.svg",
     "static/media/logo.6ce24c58.svg": "/Tapeside-Website/static/media/logo.6ce24c58.svg",
     "static/media/materialui.5b2d8a0a.png": "/Tapeside-Website/static/media/materialui.5b2d8a0a.png",
     "static/media/ohurst.bd27e6eb.png": "/Tapeside-Website/static/media/ohurst.bd27e6eb.png",
     "static/media/outlook.6d8facf6.png": "/Tapeside-Website/static/media/outlook.6d8facf6.png",
     "static/media/reactbootstrap.d7a792fb.png": "/Tapeside-Website/static/media/reactbootstrap.d7a792fb.png",
     "static/media/sass.6747d5c6.png": "/Tapeside-Website/static/media/sass.6747d5c6.png",
+    "static/media/snow.9d8c9279.png": "/Tapeside-Website/static/media/snow.9d8c9279.png",
     "static/media/stream.18fa53b8.png": "/Tapeside-Website/static/media/stream.18fa53b8.png",
     "static/media/szedhane picture.9d6189f8.jpg": "/Tapeside-Website/static/media/szedhane picture.9d6189f8.jpg",
     "static/media/teams.2e8c526e.webp": "/Tapeside-Website/static/media/teams.2e8c526e.webp",
+    "static/media/tilt.4bc95637.webp": "/Tapeside-Website/static/media/tilt.4bc95637.webp",
     "static/media/vscode.3721028f.png": "/Tapeside-Website/static/media/vscode.3721028f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c0fcc437.js",
     "static/js/2.de217d8f.chunk.js",
     "static/css/main.74964be6.chunk.css",
-    "static/js/main.336f7ee4.chunk.js"
+    "static/js/main.400d74ba.chunk.js"
   ]
 }
