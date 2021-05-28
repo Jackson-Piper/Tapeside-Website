@@ -2,11 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import MemberCard from "../components/MemberCard";
 
-import szedhanepicture from "../assets/images/szedhane picture.jpg";
-import OHurstProfile from "../assets/images/ohurst.png";
-import HansMendozaPic from "../assets/images/Hans_Mendoza.jpg";
-import JacksonP from "../assets/images/JacksonPiper.jpg";
-import Miles from "../assets/images/Miles.jpg";
+import szedhanepicture from "../assets/images/profiles/szedhane picture.jpg";
+import OHurstProfile from "../assets/images/profiles/ohurst.png";
+import HansMendozaPic from "../assets/images/profiles/Hans_Mendoza.jpg";
+import JacksonP from "../assets/images/profiles/JacksonPiper.jpg";
+import Miles from "../assets/images/profiles/Miles.jpg";
 
 export default class Team extends React.Component {
   render() {
