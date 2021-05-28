@@ -193,69 +193,100 @@ export default class Theory extends React.Component {
           <br/>
           <ul>
             <li>
-              <ul><strong>It is sometimes useful to define roles for particular participants, such as Lead Developer, or
-                Technical Designer, or User Interface Designer.</strong></ul>
+              <ul><strong><u>Roles for the Project</u></strong></ul>
             </li>
             <ul>
               Defining roles for such a large project is very useful and can be a huge benefit to a team’s overall
-              performance and functionality. Positions being allocated are usually brought upon by themselves due to the
-              fact that some people have certain skills in certain roles, for example having a person who has an
-              excellent
+              performance and functionality. Positions being allocated are usually brought upon by themselves since some
+              people have certain skills in certain roles, for example having a person who has an excellent
               understanding of app development, operating systems and computing skills are usually given a job as <i>Lead
               Developer</i> and someone who has a creative mind, understands the goals/aims deeply and is not afraid to
               take
-              risks should be given a role like a technical designer. Defining roles for particular participants is very
-              beneficial in the grand scheme of things as it bypasses past any unclear air that can cause any tension
-              between the team. For our project, the defining roles are a master brewer someone that understands how the
-              fermentation process works next would be a specialist in Raspberry Pi & Arduino because the DIY building
-              tools are essential to the creation to the device and application this person would need to be able to
-              code
-              in C++ to use the Arduino and Python to use the Raspberry pi. Another defining role would have to be a
-              REDHAT someone can use open-sourced code.
-            </ul>
-            <br/>
-            <li>
-              <ul><strong>It is also possible that roles are changed from week to week, depending on what needs to be
-                done next.</strong></ul>
-            </li>
-            <ul>
+              risks should be given a role like a technical designer. Defining roles for participants is very beneficial
+              in the grand scheme of things as it bypasses past any unclear air that can cause any tension between the
+              team.
+              <br/>
+              <br/>
               Roles can be changed throughout the duration of a project and roles can also be shared if need be.
-              Positions
-              in a team are set for functionality to achieve optimum performance, the purpose of having roles and
-              positions is to make sure that every single task is accomplished in an orderly way and to not cause any
-              confusion or any dilemma, if a certain task is finished and the role thereby becomes no longer needed then
-              it is possible for roles to be changed or in a better way shared / helped with. For the benefit of a
-              team’s
-              cohesion, it is better to have roles shared and not changed and if someone’s role is changed that may
-              cause
-              them to feel like their skills are not wanted but for roles to be shared it creates a sense of comradery
-              and
-              great team chemistry plus it shows how well people within a team can work together on the same task.
+              Positions in a team are set for functionality to achieve optimum performance, the purpose of having roles
+              and positions is to make sure that every single task is accomplished in an orderly way and to not cause
+              any confusion or any dilemma, if a certain task is finished and the role thereby becomes no longer needed
+              then it is possible for roles to be changed or in a better way shared / helped with. For the benefit of a
+              team’s cohesion, it is better to have roles shared and not changed and if someone’s role is changed that
+              may cause them to feel like their skills are not wanted but for roles to be shared it creates a sense of
+              comradery and great team chemistry plus it shows how well people within a team can work together on the
+              same task.
             </ul>
             <br/>
             <li>
-              <ul><strong>Have you defined any specific roles for your project? If so, describe and justify
-                these.</strong></ul>
+              <ul><strong><u>What roles would we like?</u></strong></ul>
             </li>
             <ul>
-              For our project there were a number of defined roles, each role needed to be defined for the success of
-              the
-              project and for the benefit of a finished project. The first role that was defined was the ‘brewer’ this
-              position was a must for the project it needed to be a must because this person needed to be able to relay
-              information to the development team on how a fermentation works and why this device is needed , this role
-              is
-              vital for the project because if the project did not have the role of <i>brewer</i> no one would know how
-              to use
-              the application and give feedback on how the project is achieving it goal of getting <i>“beer that takes
-              like
-              real beer“</i>. Next would be the role of Software Engineer, this role is defined because without a
-              software
-              engineer there would be device or application. This role is the backbone to the project as its job is to
-              create and build the device with sensors and be able to design the software that can collect and read the
-              data from the device. This defined role is crucial to the project because without a software engineer/’s
-              there simply no project, this role demands knowledge into C++ and Python as the project needs these code
-              languages to write with a Raspberry Pi and Arduino. The role also calls for the knowledge on how to use a
-              Tilt Pi card and how to use iSpindle.
+              For our project there were several defined roles that could have been implemented, but due to the nature
+              of the device and its very early stages, these roles are more so “dream roles” to have working on the
+              project.
+              <br/>
+              <br/>
+              The first role that was partly defined was the ‘Head Brewer’. This position was a must for the project as
+              it needed to create the brews that the device will be monitoring. This person needs to be able to relay
+              information to the development team on how a fermentation works and why this device is needed, this role
+              is vital for the project because if the project did not have the role of <i>brewer</i> no one would know
+              how to
+              use the application and give feedback on how the project is achieving its goal of getting <i>“beer that
+              takes
+              like real beer“.</i>
+              <br/>
+              <br/>
+              Had we continued with this trend, the next role would be the role of Software Engineer, this role is
+              desired because without a software engineer there would no application/software further down the project
+              timeline. This role is the backbone to the future of this project as the job is to create and to design
+              the software that can collect and read the data from the device. This role would be considered crucial to
+              the project because without a software engineer/’s there simply no project, this role demands knowledge
+              into C++ and Python as the project needs these code languages to write with a Raspberry Pi and Arduino.
+              <br/>
+              <br/>
+              Given that this is a very data heavy project, another key role would be that of the Data Analyst. This
+              role describes itself, but to explain why we would need this is because the purpose of a data analyst is
+              to collect, collate and interpret data for the project. They would be able to analyse the data to turn
+              into accurate information, which can be used and refined further down the project line. This role is
+              defined for its high demand in reading the data and being able to turn the information collected into
+              reliable feedback for the team to process and make educated decisions on the next steps.
+              <br/>
+              <br/>
+              Finally, the last “dream role” would be a Project Manager qualified with PMP and Agile as they would be
+              able to run the entire project from start to finish, while keeping everyone's tasks in check and having
+              accountability. As no one in this team has ever met before and everyone is unsure of each other's
+              abilities a centralised manager who can direct and manage the project would be an absolute blessing. This
+              would be beneficial in ANY team environment, especially one that requires application building and
+              testing.
+            </ul>
+            <br/>
+            <li>
+              <ul><strong><u>Why didn’t we choose to allocate roles? </u></strong></ul>
+            </li>
+            <ul>
+              Within this project there haven't been any specific roles assigned, mostly in part to everyone being new
+              to the Information Technology Project scene. It is hard to define a role as “RedHat Linux Programmer” or
+              “Lead Software Engineer” for someone who is, for example, a chef by trade. With that in mind, it is also a
+              group assignment and by that virtue all parts of the work needed to be shared out equally or at least as
+              equal as everyone's scope and abilities are concerned. Going back to the very first paragraph here,
+              “Positions being allocated are usually brought upon by themselves since some people have certain skills in
+              certain roles” we trusted everyone to step in and assist where they could do as much as possible. For
+              example:
+              <br/>
+              <br/>
+              Oscar understands GitHub and the website creation much better than Szedhane, but Szedhane can draft
+              storyboards and shoot videos comfortably. Miles can type and write 1000s of words quickly but can't edit
+              videos as well as Jackson.
+              <br/>
+              <br/>
+              The team also understands that we all work full time jobs while doing this course part time, so the
+              important thing is one person is checking to make sure we are progressing and making progress before the
+              deadline. We all took turns at checking in and making sure things were going as well as possible.
+              <br/>
+              <br/>
+              With that being said, we would have our reflections at the end this project to see if our methodology
+              worked, or not. The proof will be in the drinking.
             </ul>
             <br/>
             <ul>
@@ -275,7 +306,7 @@ export default class Theory extends React.Component {
               <TableHead>
                 <TableRow>
                   <TableCell style={{color: "white"}} align="center">
-                    <strong></strong>
+                    <strong> </strong>
                   </TableCell>
                   <TableCell style={{color: "white"}} align="center">
                     <strong>Szedhane: 36 hours</strong>
