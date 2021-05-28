@@ -3,7 +3,6 @@ import ContentCard from "../../components/ContentCard";
 import Endnote from "../../components/Endnote";
 import ToolCard from "../../components/ToolCard";
 
-import HomeAssistant from "../../assets/images/tools/home-assistant-logo.svg"
 import Tilt from "../../assets/images/tools/tilt.webp"
 import iSpindel from "../../assets/images/tools/iSpindel.png"
 import Arduino from "../../assets/images/tools/arduino.png"
@@ -116,15 +115,6 @@ export default class Practical extends React.Component {
         <ContentCard>
           <h4><strong>Tools and Tech</strong></h4>
           <br/>
-          <ToolCard
-            tool="Home Assistant"
-            toolImage={HomeAssistant}
-            link="https://www.home-assistant.io/"
-          >
-            <p>
-
-            </p>
-          </ToolCard>
           <ToolCard
             tool="Tilt"
             toolImage={Tilt}
