@@ -17,17 +17,11 @@ export default class Navigation extends React.Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              {/*<LinkContainer to="/">
-                <Nav.Link>Home</Nav.Link>
-              </LinkContainer>*/}
               <LinkContainer to="/team">
                 <Nav.Link>Team</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/tools">
                 <Nav.Link>Tools</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/ideal-jobs">
-                <Nav.Link>Ideal Jobs</Nav.Link>
               </LinkContainer>
               <NavDropdown title="Project" id="basic-nav-dropdown">
                 <LinkContainer to="/project/description">
@@ -40,6 +34,12 @@ export default class Navigation extends React.Component {
                   <NavDropdown.Item>Practical</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
+              <LinkContainer to="/skills">
+                <Nav.Link>Skills and Jobs</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/reflections">
+                <Nav.Link>Group Reflections</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

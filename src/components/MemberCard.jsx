@@ -7,6 +7,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import grey from "@material-ui/core/colors/grey";
+import ContentCard from "./ContentCard";
 
 export default class MemberCard extends React.Component {
   render() {
@@ -30,7 +31,7 @@ export default class MemberCard extends React.Component {
                   {this.props.firstName}'s Career Plans
                 </strong></h5>
               </AccordionSummary>
-              <AccordionDetails>{this.props.description}</AccordionDetails>
+              <AccordionDetails><ContentCard>{this.props.children}</ContentCard></AccordionDetails>
             </Accordion>
           </CardContent>
           <CardMedia

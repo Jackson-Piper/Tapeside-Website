@@ -4,14 +4,15 @@ import {HashRouter, Redirect, Route, Switch} from 'react-router-dom';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import Home from './pages/Home';
 import Tools from "./pages/Tools";
 import Team from './pages/Team';
-import IdealJobs from './pages/IdealJobs';
 
 import Description from "./pages/Project/Description";
 import Theory from "./pages/Project/Theory";
 import Practical from "./pages/Project/Practical";
+
+import SkillsJobs from "./pages/SkillsJobs";
+import GroupReflections from "./pages/GroupReflections"
 
 import Error from './pages/Error';
 
@@ -22,12 +23,11 @@ export default class App extends Component {
         <div>
           <Header/>
           <Switch>
-            <Route path="/" component={Home} exact>
+            <Route path="/" exact>
               <Redirect to="/team"/>
             </Route>
             <Route path="/team" component={Team}/>
             <Route path="/tools" component={Tools}/>
-            <Route path="/ideal-jobs" component={IdealJobs}/>
             <Route
               path="/project"
               render={({match: {url}}) => (
@@ -41,6 +41,8 @@ export default class App extends Component {
                 </>
               )}
             />
+            <Route path="/skills" component={SkillsJobs}/>
+            <Route path="/reflections" component={GroupReflections}/>
             <Route component={Error}/>
           </Switch>
         </div>
