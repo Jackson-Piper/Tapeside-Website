@@ -3,13 +3,17 @@ import ContentCard from "../../components/ContentCard";
 import Endnote from "../../components/Endnote";
 import ToolCard from "../../components/ToolCard";
 
-import Tilt from "../../assets/images/tools/tilt.webp"
-import iSpindel from "../../assets/images/tools/iSpindel.png"
-import Arduino from "../../assets/images/tools/arduino.png"
+import GitHub from "../../assets/images/tools/github.png"
+import Teams from "../../assets/images/tools/teams.webp"
+import Office from "../../assets/images/tools/office.png"
+import Java from "../../assets/images/tools/java.svg"
 import RPi from "../../assets/images/tools/Raspi.webp"
-import Fermenter from "../../assets/images/tools/fermenter.png"
-import Heat from "../../assets/images/tools/heat.png"
-import Cold from "../../assets/images/tools/snow.png"
+import MicroSD from "../../assets/images/tools/microSD.png"
+import LM35 from "../../assets/images/tools/lm35.jpg"
+import SGP30 from "../../assets/images/tools/SGP30.webp"
+import MQ3 from "../../assets/images/tools/MQ3.jpeg"
+import Breadboard from "../../assets/images/tools/breadboard.jpg"
+import StarterKit from "../../assets/images/tools/starter.jpg"
 
 export default class Practical extends React.Component {
   render() {
@@ -25,6 +29,7 @@ export default class Practical extends React.Component {
             <b><u>Phase one:</u></b>
             <br/>
             The initial phase is just to be able to have data readings available using this device and an application.
+            <br/>
             This will specifically read and report temperature (both ambient and brew), carbon dioxide levels and lastly
             alcohol vapor. Primarily we will want to just be able to see these are accurate and available in real time.
             <br/>
@@ -39,12 +44,10 @@ export default class Practical extends React.Component {
             />
             .
             <br/>
-            <br/>
             To achieve this, a real-life prototype will need to be built with Raspberry Pi and Arduino components, one
             of the biggest limits here is financing the tools (soldering iron, solder, flux, parts etc) as well as the
             Raspberry Pi itself. It will also need hands on skills to be learnt to build the device, followed by testing
             to make sure all components are operating.
-            <br/>
             <br/>
             <br/>
             <b><u>Phase Two:</u></b>
@@ -53,16 +56,13 @@ export default class Practical extends React.Component {
             automation of the temperature control, based on the data from the CO2 and Alcohol readings, as well as the
             “desired” fermentation temperature (for example, 16-20c for Lager).
             <br/>
-            <br/>
             Secondary to this, an application will need to be built to house and display the data in a simple
             user-friendly GUI. Starting out this will only have one beer type available, the lager. The app would be
             able to connect via Wi-Fi so the data can be monitored in real time.
             <br/>
-            <br/>
             In order for this device/app to be considered as “working” under the phase two banner, it will need to be
             able to “run” the fermentation process entirely from start to finish without any human interference besides
             putting the fermenter in and selecting what kind of brew is being fermented.
-            <br/>
             <br/>
             <br/>
             <b><u>Phase Three:</u></b>
@@ -78,14 +78,11 @@ export default class Practical extends React.Component {
               link="https://aws.amazon.com/cognito/"
             />
             <br/>
-            <br/>
             The result will be an automatically fermented beer that once the process is finished is also cold crashed
             and requires only bottling/kegging and cleaning from the user.
             <br/>
-            <br/>
             As well as this, the application that runs the process should also come with manual alert options, useful
             notifications and even manual overrides, for things such as cold crashing and even dry hopping.
-            <br/>
             <br/>
             <br/>
             <b><u>Phase Four:</u></b>
@@ -95,11 +92,9 @@ export default class Practical extends React.Component {
             non-alcoholic fermentable options such as Kombucha, all within one app that can be checked in on via Wi-Fi
             from anywhere on earth. For this to be achievable we will need servers and data storage facilities.
             <br/>
-            <br/>
             Naturally this will mean that the data collection would extend to 100s of different beer types and allow for
             user input to allow custom beers to be created and even added to a community portal for user added templates
             that can be shared and used by anyone.
-            <br/>
             <br/>
             <br/>
             <b><u>Phase Five:</u></b>
@@ -115,68 +110,137 @@ export default class Practical extends React.Component {
         <ContentCard>
           <h4><strong>Tools and Tech</strong></h4>
           <br/>
+          <b>Collaborative Tools:</b>
+          <br/>
           <ToolCard
-            tool="Tilt"
-            toolImage={Tilt}
-            link="https://tilthydrometer.com/products/tilt-pi-raspberry-pi-disk-image-download"
+            tool="GitHub"
+            toolImage={GitHub}
+            link="https://github.com/about"
           >
             <p>
-
-            </p>
-          </ToolCard>
-          OR
-          <ToolCard
-            tool="iSpindel"
-            toolImage={iSpindel}
-            link="https://www.ispindel-kit.com/"
-          >
-            <p>
-
+              GitHub is being used to store our code for the project and for our website. This helps us to easily
+              collaborate in developing our product and keeping our website up to date.Our GitHub doesn’t reflect at all
+              the effort the team went into as we did so much typing and manual handling (building the device for
+              example) that doesn’t show up in GitHub.
             </p>
           </ToolCard>
           <ToolCard
-            tool="Arduino"
-            toolImage={Arduino}
-            link="https://www.arduino.cc/"
+            tool="Microsoft Teams"
+            toolImage={Teams}
+            link="https://www.microsoft.com/en-au/microsoft-teams/group-chat-software"
           >
             <p>
-
+              Microsoft Teams is being used as our main line of communication, task management. It is also the tool we
+              use to host and record our meetings.
             </p>
           </ToolCard>
           <ToolCard
-            tool="Raspberry Pi"
+            tool="Microsoft Office"
+            toolImage={Office}
+            link="https://www.office.com/"
+          >
+            <p>
+              The full suite is used by everyone in the team, from Outlook to Word, even PowerPoint for simple
+              presentations. The Office suite is a very powerful tool and one that cannot be overlooked for its use in
+              any project.
+            </p>
+          </ToolCard>
+          <ToolCard
+            tool="Java"
+            toolImage={Java}
+            link="https://www.java.com/en/"
+          >
+            <p>
+              Java is being used to develop our project as it is a powerful, object oriented, and fast programming
+              language which is perfect for our project.
+            </p>
+          </ToolCard>
+          <br/>
+          <b>Collaborative Tools:</b>
+          <br/>
+          <ToolCard
+            tool="Raspberry Pi 3"
             toolImage={RPi}
             link="https://www.raspberrypi.org/"
           >
             <p>
-
+              The Raspberry Pi is being used to prototype our product so we can test it before manufacturing consumer
+              editions of the product. There are various models of this available, but we chose to use the Raspberry Pi
+              3 as it was still supported and was an affordable option for the project.
             </p>
           </ToolCard>
           <ToolCard
-            tool="Fermenter"
-            toolImage={Fermenter}
-            link="https://en.wikipedia.org/wiki/Fermentation"
+            tool="Raspberry Pi OS"
+            toolImage={RPi}
+            link="https://www.raspberrypi.org/software/"
           >
             <p>
-
+              A Linux based Operating System that is loaded via MicroSD card. This is a very simple procedure to do, it
+              involves having a MicroSD card of at least 34gb, downloading the image software from the R-Pi website and
+              running the installer. Once installed on the MicroSD no further action is needed. The Raspberry Pi boots
+              from the MicroSD.
             </p>
           </ToolCard>
           <ToolCard
-            tool="Heat Pad"
-            toolImage={Heat}
-            link="https://homebrewanswers.com/fermenter-heaters-heat-pads-brew-belts/"
+            tool="MicroSD"
+            toolImage={MicroSD}
+            link="https://en.wikipedia.org/wiki/SD_card"
           >
             <p>
-
+              Need to install the above Raspberry Pi operating system. These can be purchased from just about anywhere,
+              from Amazon, JB-HiFi, Officeworks and even eBay. The minimum suggested size is 8gb but most folks will opt
+              for at least 32 to 64gb allowing for extra storage if needed.
+            </p>
+          </ToolCard>
+          <br/>
+          <b>Arduino Parts:</b>
+          <br/>
+          <ToolCard
+            tool="LM35 Temp Sensor"
+            toolImage={LM35}
+            link="https://components101.com/sensors/lm35-temperature-sensor"
+          >
+            <p>
+              To measure the temperature within the fermentation area, in this instance an old fridge.
             </p>
           </ToolCard>
           <ToolCard
-            tool="Fermenter Fridge"
-            toolImage={Cold}
-            link="https://www.instructables.com/Converting-a-fridge-for-fermenting-beer/"
+            tool="SGP30 Air Sensor"
+            toolImage={SGP30}
+            link="https://www.adafruit.com/product/3709"
           >
             <p>
-
+              To detect CO2 levels, which indicates that the yeast is converting sugar to alcohol as CO2 is a
+              by-product.
+            </p>
+          </ToolCard>
+          <ToolCard
+            tool="MQ3 Alcohol Sensor"
+            toolImage={MQ3}
+            link="https://components101.com/sensors/mq-3-alcohol-gas-sensor"
+          >
+            <p>
+              This is to be able to read the alcohol vapour and give an indication that fermentation has completed, and
+              the sugars have been converted to alcohol.
+            </p>
+          </ToolCard>
+          <ToolCard
+            tool="Breadboard"
+            toolImage={Breadboard}
+            link="https://en.wikipedia.org/wiki/Breadboard"
+          >
+            <p>
+              We used a half size breadboard as it was able to fit all the parts with ease and is relatively small so as
+              to take up as little space as possible.
+            </p>
+          </ToolCard>
+          <ToolCard
+            tool="Arduino Starter Kit"
+            toolImage={StarterKit}
+            link="https://store.arduino.cc/usa/arduino-starter-kit"
+          >
+            <p>
+              This kit contained all the wiring and extra pieces that would be needed, outside of the above Sensors.
             </p>
           </ToolCard>
         </ContentCard>
@@ -205,10 +269,8 @@ export default class Practical extends React.Component {
             />
             .
             <br/>
-            <br/>
             Once a brew has been added to the fermenter, that will need to be placed inside the fridge and have a heat
             belt attached.
-            <br/>
             <br/>
             The device itself will sit in a space above the fermenter, ideally in the top section of the fridge so that
             it can record the ambient temperature as well as the gases that are being detected. Co2 is heavier than air
@@ -222,19 +284,16 @@ export default class Practical extends React.Component {
             . It will require location
             testing to see if any spot is beneficial for the output data.
             <br/>
-            <br/>
             The simple way to test the device is to have a brew and monitor the outputs, confirming that fermentation is
             occurring by taking manual gravity readings throughout the brew as well as running a concurrent analogue
             thermometer. These will allow the data to be checked off against what is being reported, allowing for live
             results and changes to be made as the brew progresses. Thankfully, a usual brew takes around 2 weeks to
             ferment so this allows for plenty of opportunities to run diagnostics on the data capture side.
             <br/>
-            <br/>
             We will know we have succeeded when multiple temperate readings are within a 0.5-degree Celsius variance
             compared to analogue over the course of several days, CO2 is being observed within the fridge and any
             estimated alcohol readings are backed up by manual readings taken over a 3-day period at the end of
             fermentation.
-            <br/>
             <br/>
             After that we will want to move onto being able to control the temperature based on the successful readings.
           </p>
@@ -256,11 +315,9 @@ export default class Practical extends React.Component {
             <br/>
             <br/>
             In order to achieve this, you will need to have a basic understanding of Linux, specially the CLI (Command
-            Line Interface) to be able to “talk” to the sensors.
-            <br/>
-            <br/>
-            This will also need some python libraries. Admittedly if you have no programming experience it will seem
-            daunting. A team would need to have someone who can program in Python or the project is dead in the water.
+            Line Interface) to be able to “talk” to the sensors. This will also need some python libraries. Admittedly
+            if you have no programming experience it will seem daunting. A team would need to have someone who can
+            program in Python or the project is dead in the water.
             <br/>
             <br/>
             One of the main risks to the project here is that most users are only familiar with Windows or MacOS, so
@@ -277,15 +334,12 @@ export default class Practical extends React.Component {
             price of $80-120 AUD, excluding all the extra components. A single prototype could run to $200 AUD easily
             which is an expensive addition that home brewers may not wish to spend.
             <br/>
-            <br/>
             It may be better to use an Arduino board in lieu of the R-Pi, as it is a much simpler system, but we will
             not know this for sure until after the prototype is built and tested. It is likely that we have gone the
             wrong way around on this, but you cannot be sure until after prototyping is completed.
             <br/>
-            <br/>
             Some of the components, especially the gas/alcohol sensors may require calibration before/after use which
             could cause the system to malfunction if not done properly.
-            <br/>
             <br/>
             There is also the ultimate risk, in that it does not read the data accurately, failing to see the correct
             temperatures and therefore having a totally pointless system that cost time and money to be a paperweight.

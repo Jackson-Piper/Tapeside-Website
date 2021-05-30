@@ -24,6 +24,9 @@ export default class Navigation extends React.Component {
                 <Nav.Link>Tools</Nav.Link>
               </LinkContainer>
               <NavDropdown title="Project" id="basic-nav-dropdown">
+                <LinkContainer to="/project/overview">
+                  <NavDropdown.Item>Overview</NavDropdown.Item>
+                </LinkContainer>
                 <LinkContainer to="/project/description">
                   <NavDropdown.Item>Description</NavDropdown.Item>
                 </LinkContainer>

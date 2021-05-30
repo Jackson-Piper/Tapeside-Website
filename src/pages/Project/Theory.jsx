@@ -8,6 +8,9 @@ import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
 import TableContainer from "@material-ui/core/TableContainer";
 
+import Proto from "../../assets/images/project/Proto.png"
+import Proto1 from "../../assets/images/project/proto1.png"
+
 export default class Theory extends React.Component {
   createData(week, szedhane, hans, oscar, jackson, miles) {
     return {week, szedhane, hans, oscar, jackson, miles};
@@ -185,7 +188,179 @@ export default class Theory extends React.Component {
           <h4><strong>Plans and Progress</strong></h4>
           <br/>
           <p>
-
+            Originally, we started assignment 2 with an application for streamers to use to allow them to have music
+            playing without risking copyright infringements against them, but the team decided that project wasn’t one
+            that we all felt we could contribute and work on together. We bandied about a few different ideas such as a
+            system that aggregated VOD (streaming services) into one central place and allowed users to select shows
+            from a central hub that was in their paid stream selections. We discussed this idea but worried about
+            copyright and the legality of a system like this. While it was an interesting idea it wasn’t something
+            everyone had a great deal of interest in.
+            <br/>
+            <br/>
+            After a bit of discussion, the group decided that a system to help with home brewing, specifically the
+            fermentation side, would be both a challenge as well as interesting for everyone in the group. The basic
+            idea was to have a system that could monitor temperature and emissions and then automate the temperature
+            control side based on additional parameters. We knew there was a system –the BrewPi – as well as couple
+            others that did temperature control, but it was based only on that - the temperature.
+            <br/>
+            <br/>
+            No other system considered the yeast activity levels by measuring the carbon dioxide emissions as well as
+            the alcohol vapour levels to perform automation.Thus, this new project idea was born. While we didn’t have a
+            clever name for it, we simply called it “Project: Yeast”. Presently this name has not changed but a few
+            ideas such as “FermenSensorPi” and Brew-o -Matic were thrown around.
+            <br/>
+            <br/>
+            The first steps to even get this project started was to fork our original GitHub repository and strip out
+            the unnecessary elements from Assignment 2.
+            <br/>
+            <br/>
+            <b>Oscar</b> was the first to get underway with the theory side by the following:
+            <br/>
+            <br/>
+            <b>Oscar:</b> “I have created the Java files we will need for the device and am currently writing comments
+            and
+            empty
+            methods to then implement functionality after I know which sensors will be used and how to calculate the
+            data. The next step I will be taking is creating configuration files. Once I have the data needed to add the
+            sensor data collection, I will implement that and create calculations to be run.”At this point we knew we
+            had the base line software and coding available, at least based on the research that had been done by Oscar.
+            <br/>
+            <br/>
+            <b>Miles</b> then went online to try and see if an Arduino board or a Raspberry Pi would make for a better
+            controller, upon finding some information online it turned out that there were multiple sensors for
+            everything we had planned to implement. Air Quality sensors, Alcohol Vapour Sensors and of course
+            Temperature sensors were all available and even in stock at local stores.
+            <br/>
+            <br/>
+            <b>Miles</b> then went online to try and see if an Arduino board or a Raspberry Pi would make for a better
+            controller, upon finding some information online it turned out that there were multiple sensors for
+            everything we had planned to implement. Air Quality sensors, Alcohol Vapour Sensors and of course
+            Temperature sensors were all available and even in stock at local stores.
+            <br/>
+            <br/>
+            <b>Miles:</b> Made a digital prototype of the device using Raspberry Pi and Arduino parts. Have ordered the
+            parts to
+            build a functional Proof of Concept device then will do a brew to test systems. Started work on the write up
+            part under tasks too.
+            <br/>
+            <br/>
+            Completed “Tools Needed”
+            <br/>
+            <br/>
+            Once a conceptual design was made, it needed to be brought into the physical world, so the parts were
+            purchased:
+            <br/>
+            Raspberry Pi 3
+            <br/>
+            ½ size Breadboard
+            <br/>
+            Air Quality Sensor breakout board
+            <br/>
+            Temperature sensor breakout board
+            <br/>
+            Alcohol Sensor breakout board.
+            <br/>
+            Super Starter UNO R3 Kit (contained wiring and resistors etc.).
+            <br/>
+            We did have to wait for the Super Starter kit from Amazon, but it was a fairly quick delivery.
+            <br/>
+            <br/>
+            During this time <b>Szedhane</b> and <b>Jackson:</b> Started a rough draft for a “TapeSide Technologies
+            News” broadcast,
+            explaining a little as to why the system was being created and its end goals.
+            <br/>
+            <br/>
+            We did some further research to see if it was possible to build our own heat/cooling system but that turned
+            out to be a gargantuan undertaking so that idea was dropped and left to the existing technologies.
+            <br/>
+            As the scope of this project grew and expanded, we did have a moment where we had to re-examine what the
+            goal was going to be with our allocated timeframe. It had been originally planned to have a fully working
+            prototype device AND rudimentary application to monitor the data, but we realised that the amount of
+            research we were doing and with (for lack of a better term) an inexperienced team we would be lucky to build
+            the prototype, let alone get full testing underway.
+            <br/>
+            <br/>
+            <b>Miles:</b> Purchased Arduino components as well as soldering equipment. Downloaded Raspberry Pi OS to
+            MicroSD
+            card to push install once the prototype is ready to be worked on some more.
+            <br/>
+            <br/>
+            Meanwhile, <b>Szedhane</b> and <b>Jackson</b> filmed their “News” segment and edited it.
+            <br/>
+            Also, during this, <b>Szedhane</b> wrote up the aims of this project as well as the as the roles required.
+            He
+            included some “dream team” job titles to show what level the ultimate finished product would need to have to
+            be considered a professional and quality product.
+            <br/>
+            <br/>
+            <b>Oscar:</b> Wrote up Tools and Tech document. Will begin on career plans document tomorrow as well as
+            working on
+            the website.He also took the time to find existing, open source, code for the various sensors so that he can
+            program the device to read and interpret the data.
+            <br/>
+            <br/>
+            <b>Miles:</b> has built the Project: Yeast device! It took a fair bit of research and ton of trial and error
+            to
+            achieve this, but we now have a physical device, complete with Raspberry Pi Operating System installed as
+            well as a fully wired-up breadboard with all the breakout boards wired in:
+            <img src={Proto}/>
+            <br/>
+            As well as a prototype:
+            <br/>
+            <img src={Proto1}/>
+            <br/>
+            <br/>
+            This isn't the ideal spot for the device but given it is a prototype and doesn’t have a housing this would
+            have to suffice.
+            <br/>
+            While the prototype has been built, we were unable to get testing done properly as the team is located all
+            over Australia and <b>Miles</b> works away from home, the device couldn’t be shipped safely or in time to be
+            programmed.
+            <br/>
+            This is the one thing that we really wanted to be able to do within the timeframe that we had but if we were
+            given an extra week or so this would definitely be, at a minimum, programmed to read sensor data.
+            <br/>
+            A brew would also need to be made for this but as a brew takes two weeks to ferment, we would need to have
+            someone monitor the process, as stated above <b>Miles</b> (our head brewer!) is away and can’t make a batch
+            of beer
+            yet.
+            <br/>
+            <b>Oscar:</b> Has now added content to website for the project and preparing the pages for other components
+            of the assessment.
+            <br/>
+            <b>Jackson</b> has finished writing the Group Process document, which needed to be done near the very end of
+            the project.
+            <br/>
+            The rest of the team is taking the time to reflect on the last few weeks and get ready to finalise the
+            project.
+            <br/>
+            <br/>
+            <b><u>This is as far as we managed to get as a team.</u></b>
+            <br/>
+            <br/>
+            <b><u>The future:</u></b>
+            <br/>
+            As a part of a handover, we would advise anyone else (even our own team) to focus on the sensor
+            configuration first and foremost, once this is readable then you can start the testing phase to see that the
+            information being gathered is useful and viable.
+            <br/>
+            Once that is confirmed (fingers crossed) then beginning work on creating a companion app that can monitor
+            the information is second – it doesn’t matter if it is a desktop application or mobile specific but
+            something that can allow the user to see the data being generated, ideally, in real time.
+            <br/>
+            After these are completed, the next part is configuring the R-Pi to control the fridge cooling system and a
+            heat pad. This will prove the trickiest part of the whole operation as you would be working with “dumb”
+            devices. One of these is a system that monitors the internal temperature of the fridge and then just turns
+            the fridge off (or on) for temp control but we want to be able to push this to do it at our devices command,
+            rather than just by its own programmed variable.
+            <br/>
+            This will likely require an additional unit to be constructed. This can be a much simpler Arduino IoT device
+            that communicates with the main control system – The Raspberry Pi/Sensor array. This part would be highly
+            complicated and will need help from an electrical engineer or someone similar (and qualified).
+            <br/>
+            Another thing that would be amazing would be to have a housing made, quite likely with a 3D Printer, so it
+            can be customised depending on how we want the device to look and access for the sensors to the atmosphere
+            within the fermentation chamber.
           </p>
         </ContentCard>
         <ContentCard>
@@ -271,9 +446,10 @@ export default class Theory extends React.Component {
               group assignment and by that virtue all parts of the work needed to be shared out equally or at least as
               equal as everyone's scope and abilities are concerned. Going back to the very first paragraph here,
               “Positions being allocated are usually brought upon by themselves since some people have certain skills in
-              certain roles” we trusted everyone to step in and assist where they could do as much as possible. For
-              example:
+              certain roles” we trusted everyone to step in and assist where they could do as much as possible.
               <br/>
+              <br/>
+              For example:
               <br/>
               Oscar understands GitHub and the website creation much better than Szedhane, but Szedhane can draft
               storyboards and shoot videos comfortably. Miles can type and write 1000s of words quickly but can't edit
@@ -283,7 +459,6 @@ export default class Theory extends React.Component {
               The team also understands that we all work full time jobs while doing this course part time, so the
               important thing is one person is checking to make sure we are progressing and making progress before the
               deadline. We all took turns at checking in and making sure things were going as well as possible.
-              <br/>
               <br/>
               With that being said, we would have our reflections at the end this project to see if our methodology
               worked, or not. The proof will be in the drinking.
@@ -344,7 +519,38 @@ export default class Theory extends React.Component {
           <h4><strong>Group Process</strong></h4>
           <br/>
           <p>
-
+            Similarly, to Assignment Two the main tool for our group’s communication will be through Microsoft Teams.
+            This application available both on our mobile devices and computers allows a constant connection between
+            each team member that is not as slow or easy to ignore as other methods of communication such as Email or
+            Facebook. This application has everything a team could need from file sharing to task allocation.
+            <br/>
+            The communication will be broken down into two parts, messaging, and meetings. The chat function within
+            teams is the informal instant messaging approach that will consist of on the fly updating/assessing and
+            confirming changes that will allow any member anywhere to input and express their opinions or offer their
+            help.
+            <br/>
+            <br/>
+            Ideas, the larger tasks, and planning will all be finalised in meetings which are held at least twice a week
+            with this number ramping up in the final week. All members of the team are asked to attend any meeting they
+            can and if there is a serious subject they are looking to raise, then it falls to them to organise a meeting
+            and having anyone who can join attend is the most important part. Typically, our team meetings take place
+            any time after 5-6pm Melbourne time and range from 30 mins to 1 1/2hours. These meetings are finalised with
+            either notes being sent to everyone student email or withing the specific chat for that meeting itself.
+            <br/>
+            <br/>
+            The meetings went very well in Assignment two, as they were pre-planned and scheduled in advance from the
+            start of the project to the end.
+            <br/>
+            <br/>
+            In Assignment Two there were periods of time where certain members for the group were unreachable and this
+            is a complication that as a team we will need to work together to overcome. Obviously, it is not an ideal
+            situation but delegating any work that is over due to active members of the group is our backup plan for
+            unresponsive members. They will try to be contacted through other means outside of Teams through Email or
+            Discord and if they continued to be unresponsive then they may be removed from future planning.
+            <br/>
+            <br/>
+            For this assignment less meetings were scheduled to allow more time for people to work on tasks
+            uninterrupted.
           </p>
         </ContentCard>
       </div>
